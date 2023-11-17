@@ -8,6 +8,13 @@ headPhones.forEach((headphone) => {
     console.log(headphone);
 });
 
+const musicLessons = false;
+
+if (musicLessons === true) {
+    return "Depression";
+} else {
+    return "Happy;"
+}
 
 function adding() {
     return number1 + number2;                
