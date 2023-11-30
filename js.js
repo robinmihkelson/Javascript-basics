@@ -6,7 +6,7 @@ Korrutamine = function(x1, x2) {
 
 //Function parameters
 
-Hello = function(parameter1, parameter2) {
+hello = function(parameter1, parameter2) {
     //This is is a parameter
 }
 
@@ -35,3 +35,18 @@ function greet(name = 'Guest', greeting = 'Hello') {
 greet(); // Outputs: Hello, Guest!
 greet('John'); // Outputs: Hello, John!
 greet('Alice', 'Hi'); // Outputs: Hi, Alice!
+
+//Javascript object methods
+//JavaScript methods are actions that can be performed on objects.
+//Methods are stored in properties as function definitions.
+
+const person = {
+    firstName: "John",
+    lastName: "Doe",
+    id: 5566,
+    fullName: function() {
+        return this.firstName + " " + this.lastName;
+    }
+};
+
+//In JavaScript, the "this" keyword refers to an object.
